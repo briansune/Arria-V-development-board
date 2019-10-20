@@ -1,0 +1,386 @@
+# 电源这边这个DDR3的时钟只能用这个脚 100M	input	PIN_A16
+
+set_location_assignment  PIN_F19    -to    mem_a[15]
+
+
+set_location_assignment  PIN_C20    -to    mem_a[14]
+
+
+set_location_assignment  PIN_E30    -to    mem_a[13]
+
+
+set_location_assignment  PIN_D17    -to    mem_a[12]
+
+
+set_location_assignment  PIN_C23    -to    mem_a[11]
+
+
+set_location_assignment  PIN_K24    -to    mem_a[10]
+
+
+set_location_assignment  PIN_B17    -to    mem_a[9]
+
+
+set_location_assignment  PIN_E17    -to    mem_a[8]
+
+
+set_location_assignment  PIN_B24    -to    mem_a[7]
+
+
+set_location_assignment  PIN_D23    -to    mem_a[6]
+
+
+set_location_assignment  PIN_C17    -to    mem_a[5]
+
+
+set_location_assignment  PIN_E23    -to    mem_a[4]
+
+
+set_location_assignment  PIN_J20    -to    mem_a[3]
+
+
+set_location_assignment  PIN_D24    -to    mem_a[2]
+
+
+set_location_assignment  PIN_H21    -to    mem_a[1]
+
+
+set_location_assignment  PIN_L21    -to    mem_a[0]
+
+
+
+
+set_location_assignment  PIN_E15    -to    mem_ba[2]
+
+
+set_location_assignment  PIN_K22    -to    mem_ba[1]
+
+
+set_location_assignment  PIN_K25    -to    mem_ba[0]
+
+
+set_location_assignment  PIN_B27    -to    mem_cas_n[0]
+
+
+set_location_assignment  PIN_M17    -to    mem_ck[0]
+
+
+set_location_assignment  PIN_N17    -to    mem_ck_n[0]
+
+
+set_location_assignment  PIN_F17    -to    mem_ck[1]
+
+
+set_location_assignment  PIN_G17    -to    mem_ck_n[1]
+
+
+set_location_assignment  PIN_D13    -to    mem_cke[0]
+
+
+set_location_assignment  PIN_B30    -to    mem_cs_n[1]
+
+
+set_location_assignment  PIN_D31    -to    mem_cs_n[0]
+
+
+set_location_assignment  PIN_D28    -to    mem_odt[0]
+
+
+set_location_assignment  PIN_D25    -to    mem_ras_n[0]
+
+
+set_location_assignment  PIN_K17    -to    mem_reset_n
+
+
+set_location_assignment  PIN_E24    -to    mem_we_n[0]
+
+
+set_location_assignment  PIN_E32    -to    oct_rzqin
+
+
+
+
+set_location_assignment  PIN_D33    -to    mem_dm[7]
+
+
+set_location_assignment  PIN_G28    -to    mem_dm[6]
+
+
+set_location_assignment  PIN_D27    -to    mem_dm[5]
+
+
+set_location_assignment  PIN_M25    -to    mem_dm[4]
+
+
+set_location_assignment  PIN_A22    -to    mem_dm[3]
+
+
+set_location_assignment  PIN_G18    -to    mem_dm[2]
+
+
+set_location_assignment  PIN_C16    -to    mem_dm[1]
+
+
+set_location_assignment  PIN_F14    -to    mem_dm[0]
+
+
+
+set_location_assignment  PIN_J28    -to    mem_dq[63]
+
+
+set_location_assignment  PIN_H29    -to    mem_dq[62]
+
+
+set_location_assignment  PIN_C31    -to    mem_dq[61]
+
+
+set_location_assignment  PIN_G29    -to    mem_dq[60]
+
+
+
+set_location_assignment  PIN_A31    -to    mem_dq[59]
+
+
+set_location_assignment  PIN_A30    -to    mem_dq[58]
+
+
+set_location_assignment  PIN_D32    -to    mem_dq[57]
+
+
+set_location_assignment  PIN_C32    -to    mem_dq[56]
+
+
+set_location_assignment  PIN_E29    -to    mem_dq[55]
+
+
+set_location_assignment  PIN_D29    -to    mem_dq[54]
+
+
+set_location_assignment  PIN_H27    -to    mem_dq[53]
+
+
+set_location_assignment  PIN_G27    -to    mem_dq[52]
+
+
+set_location_assignment  PIN_B29    -to    mem_dq[51]
+
+
+set_location_assignment  PIN_A29    -to    mem_dq[50]
+
+
+
+
+
+set_location_assignment  PIN_D30    -to    mem_dq[49]
+
+
+set_location_assignment  PIN_A28    -to    mem_dq[48]
+
+
+set_location_assignment  PIN_K29    -to    mem_dq[47]
+
+
+set_location_assignment  PIN_E27    -to    mem_dq[46]
+
+
+set_location_assignment  PIN_F26    -to    mem_dq[45]
+
+
+set_location_assignment  PIN_E26    -to    mem_dq[44]
+
+
+set_location_assignment  PIN_C29    -to    mem_dq[43]
+
+
+set_location_assignment  PIN_C28    -to    mem_dq[42]
+
+
+set_location_assignment  PIN_A27    -to    mem_dq[41]
+
+
+set_location_assignment  PIN_D26    -to    mem_dq[40]
+
+
+
+
+set_location_assignment  PIN_C25    -to    mem_dq[39]
+
+
+set_location_assignment  PIN_J25    -to    mem_dq[38]
+
+
+set_location_assignment  PIN_H24    -to    mem_dq[37]
+
+
+set_location_assignment  PIN_G24    -to    mem_dq[36]
+
+
+set_location_assignment  PIN_C26    -to    mem_dq[35]
+
+
+set_location_assignment  PIN_B26    -to    mem_dq[34]
+
+
+set_location_assignment  PIN_A26    -to    mem_dq[33]
+
+
+set_location_assignment  PIN_A25    -to    mem_dq[32]
+
+
+set_location_assignment  PIN_L20    -to    mem_dq[31]
+
+
+set_location_assignment  PIN_K21    -to    mem_dq[30]
+
+
+
+
+set_location_assignment  PIN_H20    -to    mem_dq[29]
+
+
+set_location_assignment  PIN_K20    -to    mem_dq[28]
+
+
+set_location_assignment  PIN_G20    -to    mem_dq[27]
+
+
+set_location_assignment  PIN_F20    -to    mem_dq[26]
+
+
+set_location_assignment  PIN_B21    -to    mem_dq[25]
+
+
+set_location_assignment  PIN_B20    -to    mem_dq[24]
+
+
+set_location_assignment  PIN_M19    -to    mem_dq[23]
+
+
+set_location_assignment  PIN_D19    -to    mem_dq[22]
+
+
+set_location_assignment  PIN_D18    -to    mem_dq[21]
+
+
+set_location_assignment  PIN_E18    -to    mem_dq[20]
+
+
+
+
+
+set_location_assignment  PIN_C19    -to    mem_dq[19]
+
+
+set_location_assignment  PIN_A20    -to    mem_dq[18]
+
+
+set_location_assignment  PIN_A19    -to    mem_dq[17]
+
+
+set_location_assignment  PIN_B18    -to    mem_dq[16]
+
+
+set_location_assignment  PIN_J16    -to    mem_dq[15]
+
+
+set_location_assignment  PIN_M16    -to    mem_dq[14]
+
+
+set_location_assignment  PIN_D16    -to    mem_dq[13]
+
+
+set_location_assignment  PIN_D15    -to    mem_dq[12]
+
+
+set_location_assignment  PIN_B15    -to    mem_dq[11]
+
+
+set_location_assignment  PIN_A14    -to    mem_dq[10]
+
+
+
+
+set_location_assignment  PIN_B14    -to    mem_dq[9]
+
+
+set_location_assignment  PIN_C14    -to    mem_dq[8]
+
+
+set_location_assignment  PIN_K15    -to    mem_dq[7]
+
+
+set_location_assignment  PIN_J14    -to    mem_dq[6]
+
+
+set_location_assignment  PIN_K14    -to    mem_dq[5]
+
+
+set_location_assignment  PIN_H14    -to    mem_dq[4]
+
+
+set_location_assignment  PIN_G14    -to    mem_dq[3]
+
+
+set_location_assignment  PIN_E14    -to    mem_dq[2]
+
+
+set_location_assignment  PIN_D14    -to    mem_dq[1]
+
+
+set_location_assignment  PIN_C13    -to    mem_dq[0]
+
+
+
+
+
+set_location_assignment  PIN_A32    -to    mem_dqs[7]
+
+
+set_location_assignment  PIN_F28    -to    mem_dqs[6]
+
+
+set_location_assignment  PIN_G26    -to    mem_dqs[5]
+
+
+set_location_assignment  PIN_F25    -to    mem_dqs[4]
+
+
+set_location_assignment  PIN_D20    -to    mem_dqs[3]
+
+
+set_location_assignment  PIN_H18    -to    mem_dqs[2]
+
+
+set_location_assignment  PIN_F16    -to    mem_dqs[1]
+
+
+set_location_assignment  PIN_G15    -to    mem_dqs[0]
+
+
+
+
+set_location_assignment  PIN_B32    -to    mem_dqs_n[7]
+
+
+set_location_assignment  PIN_F29    -to    mem_dqs_n[6]
+
+
+set_location_assignment  PIN_H26    -to    mem_dqs_n[5]
+
+
+set_location_assignment  PIN_G25    -to    mem_dqs_n[4]
+
+
+set_location_assignment  PIN_E20    -to    mem_dqs_n[3]
+
+
+set_location_assignment  PIN_J19    -to    mem_dqs_n[2]
+
+
+set_location_assignment  PIN_G16    -to    mem_dqs_n[1]
+
+
+set_location_assignment  PIN_H15    -to    mem_dqs_n[0]
+
+
+		
